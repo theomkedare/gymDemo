@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ✅ Basic SEO -->
+    <title>IronPulse Gym – Baner Pune | Strength • Cardio • HIIT • Fitness Club</title>
+    <meta name="description"
+        content="IronPulse Gym Baner, Pune — 24/7 fitness club with strength training, cardio, HIIT programs, modern equipment & certified personal trainers. Visit us at Zenith Plaza, Baner.">
+    <meta name="keywords"
+        content="IronPulse Gym, Baner Gym, Pune Gym, Fitness Club Pune, Gym near me, Baner fitness, HIIT Pune, Strength Training Baner, IronPulse Gym Pune">
+    <meta name="author" content="IronPulse Gym">
+
+    <!-- ✅ Google Search Identity -->
+    <meta itemprop="name" content="IronPulse Gym Baner Pune">
+    <meta itemprop="description" content="Premium 24/7 fitness club in Baner Pune with expert trainers.">
+
+    <!-- ✅ Open Graph (WhatsApp / Instagram / Facebook Preview) -->
+    <meta property="og:title" content="IronPulse Gym – Baner Pune">
+    <meta property="og:description"
+        content="24/7 Fitness Club with Strength, HIIT, Cardio & Personal Trainers. Claim your Free Trial now.">
+    <meta property="og:image" content="https://omgymwebdemo.netlify.app/preview.jpg">
+    <meta property="og:url" content="https://omgymwebdemo.netlify.app/">
+    <meta property="og:type" content="website">
+
+    <!-- ✅ Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="IronPulse Gym – Baner Pune">
+    <meta name="twitter:description" content="Join the best 24/7 fitness club in Baner Pune. Strength • Cardio • HIIT">
+    <meta name="twitter:image" content="https://omgymwebdemo.netlify.app/preview.jpg">
+
+    <!-- ✅ Canonical -->
+    <link rel="canonical" href="https://omgymwebdemo.netlify.app/">
+
+    <!-- ✅ Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- ✅ Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- ✅ Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container nav">
+            <div class="logo" aria-label="IronPulse Gym">
+                <span class="logo-badge" aria-hidden="true"></span>
+                <span>IronPulse</span>
+            </div>
+            <nav>
+                <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+                <div class="nav-links" id="navLinks" role="menu">
+                    <a href="#programs">Programs</a>
+                    <a href="#trainers">Trainers</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#schedule">Schedule</a>
+                    <a href="#contact" class="pill">Join Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-inner">
+            <div>
+                <div class="pill" style="display:inline-block;margin-bottom:12px">No Excuses • Just Results</div>
+                <h1 class="reveal">Train Hard. <span
+                        style="background:linear-gradient(90deg,var(--primary),var(--primary-2));-webkit-background-clip:text;background-clip:text;color:transparent">Stay
+                        Strong.</span></h1>
+                <p class="reveal" style="transition-delay:.05s">Modern equipment, elite coaches, and science-backed
+                    programs—everything you need to transform.</p>
+                <div class="hero-cta reveal" style="transition-delay:.1s">
+                    <button class="cta-btn"
+                        onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Free
+                        Trial</button>
+                    <a class="btn-ghost" href="#programs">Explore Programs</a>
+                </div>
+                <div class="stat-row">
+                    <div class="stat reveal"><b>50k+</b><span>Community Workouts</span></div>
+                    <div class="stat reveal" style="transition-delay:.06s"><b>25+</b><span>Elite Trainers</span></div>
+                    <div class="stat reveal" style="transition-delay:.12s"><b>24/7</b><span>Open Hours</span></div>
+                </div>
+            </div>
+            <div class="poster reveal" aria-label="Gym Poster">
+                <div class="poster-badge">⚡ New: Athlete Performance Lab</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="container">
+        <div class="section-head">
+            <h2>Why IronPulse?</h2>
+            <p>Premium facilities • Flexible plans • Real results</p>
+        </div>
+        <div class="features">
+            <div class="card reveal">
+                <div class="icon">🏋️</div>
+                <h3>Pro Equipment</h3>
+                <p>Hammer Strength racks, calibrated plates, assault bikes & more.</p>
+            </div>
+            <div class="card reveal" style="transition-delay:.06s">
+                <div class="icon">🧪</div>
+                <h3>Science-Backed</h3>
+                <p>Periodized plans designed by CSCS-certified coaches.</p>
+            </div>
+            <div class="card reveal" style="transition-delay:.12s">
+                <div class="icon">🕒</div>
+                <h3>24/7 Access</h3>
+                <p>Train on your schedule with biometric entry & lockers.</p>
+            </div>
+            <div class="card reveal" style="transition-delay:.18s">
+                <div class="icon">💬</div>
+                <h3>Community</h3>
+                <p>Small groups, form checks, and weekly accountability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="container" id="programs">
+        <div class="section-head">
+            <h2>Programs</h2>
+            <div class="btn-ghost" id="filterAll" role="button" aria-pressed="true">Show All</div>
+        </div>
+        <div class="programs-grid" id="programGrid">
+            <article class="program reveal" data-tags="strength">
+                <div class="thumb">
+                    <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=700" alt="Powerlifting Foundations">
+                </div>
+                <div class="content">
+                    <div class="tags"><span class="tag">Strength</span><span class="tag">Beginner–Pro</span></div>
+                    <h3>Powerlifting Foundations</h3>
+                    <p>Build raw strength in squat, bench, and deadlift with progressive overload.</p>
+                </div>
+            </article>
+            <article class="program reveal" data-tags="hypertrophy strength">
+                <div class="thumb">
+                    <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=700" alt="Physique Builder">
+                </div>
+                <div class="content">
+                    <div class="tags"><span class="tag">Hypertrophy</span><span class="tag">Push/Pull/Legs</span></div>
+                    <h3>Physique Builder</h3>
+                    <p>Evidence-based volume & intensity to add lean size efficiently.</p>
+                </div>
+            </article>
+            <article class="program reveal" data-tags="conditioning">
+                <div class="thumb">
+                    <img src="https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-4.1.0&auto=format&fit=crop&q=60&w=700" alt="Engine & Conditioning">
+                </div>
+                <div class="content">
+                    <div class="tags"><span class="tag">Conditioning</span><span class="tag">HIIT</span></div>
+                    <h3>Engine & Conditioning</h3>
+                    <p>Intervals and zone-2 blocks to boost VO₂ max and endurance.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Trainers -->
+    <section class="container" id="trainers">
+        <div class="section-head">
+            <h2>Meet the Coaches</h2>
+            <p>Form-obsessed, results-driven.</p>
+        </div>
+        <div class="trainers">
+            <div class="trainer reveal">
+                <div class="trainer-avatar" aria-hidden="true">
+                    <img src="https://images.unsplash.com/photo-1686230399946-8cfdb71f4f07?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z3ltJTIwYm95fGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500" alt="">
+                </div>
+                <h3>Aarav Singh</h3>
+                <small>Powerlifting • CSCS</small>
+            </div>
+            <div class="trainer reveal" style="transition-delay:.06s">
+                <div class="trainer-avatar">
+                    <img src="https://images.unsplash.com/photo-1571731956672-f2b94d7dd0cb?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGd5bSUyMGdpcmx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" alt="">
+                </div>
+                <h3>Meera Rao</h3>
+                <small>Mobility • S&C</small>
+            </div>
+            <div class="trainer reveal" style="transition-delay:.12s">
+                <div class="trainer-avatar">
+                    <img src="https://images.unsplash.com/photo-1584952449180-f8fddc0b03a3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGd5bSUyMGJveXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="">
+                </div>
+                <h3>Dev Khanna</h3>
+                <small>Bodybuilding • Prep</small>
+            </div>
+            <div class="trainer reveal" style="transition-delay:.18s">
+                <div class="trainer-avatar">
+                    <img src="https://images.unsplash.com/photo-1690749170664-fe894475db98?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YSUyMGdpcmx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500" alt="">
+                </div>
+                <h3>Riya Patel</h3>
+                <small>Endurance • HIIT</small>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="container" id="pricing">
+        <div class="section-head">
+            <h2>Simple Pricing</h2>
+            <p>No contracts. Pause anytime.</p>
+        </div>
+        <div class="pricing">
+            <div class="price-card reveal">
+                <div class="pill">Starter</div>
+                <div class="price">₹999 <small style="color:var(--muted);font-weight:400">/ month</small></div>
+                <ul class="benefits">
+                    <li>✔ 24/7 Gym Access</li>
+                    <li>✔ Group Classes (2/week)</li>
+                    <li>— Personal Coach</li>
+                </ul>
+                <button class="cta-btn" onclick="scrollToContact('Starter')">Choose Starter</button>
+            </div>
+            <div class="price-card popular reveal" style="transition-delay:.06s">
+                <div class="pill">Pro</div>
+                <div class="price">₹1,999 <small style="color:var(--muted);font-weight:400">/ month</small></div>
+                <ul class="benefits">
+                    <li>✔ 24/7 Gym Access</li>
+                    <li>✔ Unlimited Classes</li>
+                    <li>✔ 1:1 Coaching (monthly)</li>
+                </ul>
+                <button class="cta-btn" onclick="scrollToContact('Pro')">Choose Pro</button>
+            </div>
+            <div class="price-card reveal" style="transition-delay:.12s">
+                <div class="pill">Elite</div>
+                <div class="price">₹3,999 <small style="color:var(--muted);font-weight:400">/ month</small></div>
+                <ul class="benefits">
+                    <li>✔ 24/7 Gym + Lab</li>
+                    <li>✔ Performance Testing</li>
+                    <li>✔ Weekly 1:1 Coaching</li>
+                </ul>
+                <button class="cta-btn" onclick="scrollToContact('Elite')">Choose Elite</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="container" id="schedule">
+        <div class="section-head">
+            <h2>Weekly Schedule</h2>
+            <p>Plan your grind.</p>
+        </div>
+        <div class="schedule reveal">
+            <table aria-label="Class Schedule">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6:00–7:00</td>
+                        <td>HIIT</td>
+                        <td></td>
+                        <td>Mobility</td>
+                        <td></td>
+                        <td>HIIT</td>
+                        <td>Endurance</td>
+                    </tr>
+                    <tr>
+                        <td>7:30–8:30</td>
+                        <td>Strength</td>
+                        <td>Strength</td>
+                        <td></td>
+                        <td>Strength</td>
+                        <td></td>
+                        <td>Open Gym</td>
+                    </tr>
+                    <tr>
+                        <td>18:00–19:00</td>
+                        <td>Physique</td>
+                        <td>Engine</td>
+                        <td>Physique</td>
+                        <td>Engine</td>
+                        <td>Physique</td>
+                        <td>Open Gym</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="container">
+        <div class="section-head">
+            <h2>What Members Say</h2>
+        </div>
+        <div class="quotes">
+            <div class="quote reveal">
+                <p>"IronPulse changed the way I train. Stronger lifts in 12 weeks." — <b>Raghav</b></p>
+            </div>
+            <div class="quote reveal" style="transition-delay:.08s">
+                <p>"The coaches actually fix your form. Big difference." — <b>Ananya</b></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="container">
+        <div class="section-head">
+            <h2>Gallery</h2>
+            <p>Click any photo to view full size</p>
+        </div>
+        <div class="gallery">
+            <div class="tile reveal" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Gym Floor">
+                <div class="tile-overlay">🔍</div>
+            </div>
+            <div class="tile reveal" style="transition-delay:.06s" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1605296867424-35fc25c9212a?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Weights">
+                <div class="tile-overlay">🔍</div>
+            </div>
+            <div class="tile reveal" style="transition-delay:.12s" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Training">
+                <div class="tile-overlay">🔍</div>
+            </div>
+            <div class="tile reveal" style="transition-delay:.18s" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1574680096145-d05b474e2155?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Cardio">
+                <div class="tile-overlay">🔍</div>
+            </div>
+            <div class="tile reveal" style="transition-delay:.24s" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1623874228601-f4193c7b1818?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Kettlebell">
+                <div class="tile-overlay">🔍</div>
+            </div>
+            <div class="tile reveal" style="transition-delay:.30s" onclick="openLightbox(this)">
+                <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-4.1.0&auto=format&fit=crop&q=80&w=1200" alt="Workout">
+                <div class="tile-overlay">🔍</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <button id="lightbox-close" onclick="closeLightbox()">✕</button>
+        <button id="lightbox-prev" onclick="event.stopPropagation(); shiftLightbox(-1)">‹</button>
+        <img id="lightbox-img" src="" alt="">
+        <button id="lightbox-next" onclick="event.stopPropagation(); shiftLightbox(1)">›</button>
+    </div>
+
+    <!-- Contact -->
+    <section class="container" id="contact">
+        <div class="section-head">
+            <h2>Start Your Free Trial</h2>
+            <p>Fill this out — we'll ping you back.</p>
+        </div>
+        <div class="row">
+            <form id="contactForm" class="reveal" action="https://formsubmit.co/omkedare65@gmail.com" method="POST">
+                <div class="field">
+                    <label for="name">Full Name</label>
+                    <input id="name" name="name" placeholder="e.g., Om Kedare" required />
+                </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div class="field">
+                    <label for="plan">Preferred Plan</label>
+                    <select id="plan" name="plan">
+                        <option>Starter</option>
+                        <option>Pro</option>
+                        <option>Elite</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="message">Goals</label>
+                    <textarea id="message" name="message" rows="4"
+                        placeholder="Fat loss, strength, marathon…"></textarea>
+                </div>
+                <button class="cta-btn" type="submit">Claim Free Session</button>
+                <p id="formNote" style="color:var(--muted);margin:6px 0 0"></p>
+            </form>
+            <div class="card reveal">
+                <h3>Visit Us</h3>
+                <p>2nd Floor, Zenith Plaza, Baner, Pune</p>
+                <p>Open 24/7 • Support: +91-98765-43210</p>
+
+                <div style="
+                    height:220px;
+                    border-radius:12px;
+                    border:1px solid rgba(255,255,255,.08);
+                    background:linear-gradient(145deg,#1a1f26,#0e1216);
+                    margin-top:10px;
+                    overflow:hidden;
+                ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.0231309722444!2d73.88132930034362!3d18.662957979243917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c745ddca15d9%3A0x6ba7e438ac70585e!2sIron%20Aspire%20Fitness%20and%20Health%20Club!5e0!3m2!1sen!2sin!4v1762348668916!5m2!1sen!2sin"
+                        style="width:100%;height:100%;border:0;display:block;"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" style="display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap">
+            <div>© <span id="year"></span> IronPulse Gym Made by <a href="https://www.instagram.com/opxeditzz/">OM</a></div>
+            <div> • Made for portfolio use • </div>
+        </div>
+    </footer>
+
+    <a href="#" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+    <!-- ✅ JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
